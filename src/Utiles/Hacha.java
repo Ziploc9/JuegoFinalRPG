@@ -8,6 +8,6 @@ public class Hacha extends Instrumentos implements Arma{
 
     @Override
     public int atacar(){
-        //retornar el damage
+        return 0;
     }
 }

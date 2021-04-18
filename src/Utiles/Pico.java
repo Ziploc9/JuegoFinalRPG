@@ -8,6 +8,6 @@ public class Pico extends Instrumentos implements Arma{
 
     @Override
     public int atacar(){
-        //retornar damage
+        return 0;
     }
 }

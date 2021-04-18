@@ -2,13 +2,13 @@ package Utiles;
 
 public class Espada extends Instrumentos implements Arma{
 
-    public Espada(){
+    public  Espada(){
         super();
     }
 
-    @Override
-    public int atacar(){
-        //retornar el damage
-    }
 
+    @Override
+    public int atacar() {
+        return 0;
+    }
 }
