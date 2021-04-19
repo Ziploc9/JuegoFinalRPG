@@ -5,8 +5,10 @@ public class Jugador extends Personaje {
     private int cansancio;
     private int hambre;
 
-    public Jugador(){
-        super();
+    public Jugador(String nombre, int vida, int damage, int resistencia, double velocidad, int cansancio, int hambre){
+        super(nombre,vida,damage,resistencia,velocidad);
+        this.cansancio = cansancio;
+        this.hambre = hambre;
     }
 
     /**---Get&Set---*/
@@ -27,9 +29,17 @@ public class Jugador extends Personaje {
     }
 
     /**---Methods---*/
-    public static void dormir(){
 
-    }
+   /* public static boolean dormir(){
+        boolean mimir;
+        if(KeyListener == "m" || KeyListener == "M"){
+            mimir = true;
+        }else
+        {
+            mimir = false;
+        }
+        return mimir;
+    }*/
 
     public static void agarrarObjeto(){
 
