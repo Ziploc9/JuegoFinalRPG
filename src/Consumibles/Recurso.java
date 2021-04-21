@@ -1,6 +1,6 @@
 package Consumibles;
 
-public abstract class Recurso {
+public class Recurso extends TipoRecurso{
 
     private String nombre;
     private int resistencia;
